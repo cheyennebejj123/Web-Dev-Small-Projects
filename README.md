@@ -1,6 +1,6 @@
 # Web Dev Small Projects
 
-Front-end and back-end projects I built while working through **Angela Yu's _Complete Web Development Bootcamp_** (The App Brewery). The course provides the project briefs and starter assets (images and sounds); the HTML, CSS and JavaScript in this repo is my own.
+Front-end and back-end projects I built in 2021 while working through **Angela Yu's _Complete Web Development Bootcamp_** (The App Brewery). The course provides the project briefs and starter assets (images and sounds); the HTML, CSS and JavaScript in this repo is my own.
 
 **▶ Live site: [cheyennebejj123.github.io/Web-Dev-Small-Projects](https://cheyennebejj123.github.io/Web-Dev-Small-Projects/)**
 
@@ -22,9 +22,7 @@ Front-end and back-end projects I built while working through **Angela Yu's _Com
 | <img src="screenshots/css-flag.jpg" width="160"> | **Flag of Laos** | A national flag drawn entirely in CSS | CSS positioning | [Live](https://cheyennebejj123.github.io/Web-Dev-Small-Projects/projects/css-flag/) · [Code](projects/css-flag) |
 
 ### Smaller HTML/CSS projects
-- **HTML Portfolio**: multi-page site linking my early projects · [Live](https://cheyennebejj123.github.io/Web-Dev-Small-Projects/projects/html-portfolio/)
 - **Movie Ranking**: my top 3 movies · [Live](https://cheyennebejj123.github.io/Web-Dev-Small-Projects/projects/movie-ranking/)
-- **Birthday Invite** · [Live](https://cheyennebejj123.github.io/Web-Dev-Small-Projects/projects/birthday-invite/)
 - **Color Vocab**: Spanish color flashcards · [Live](https://cheyennebejj123.github.io/Web-Dev-Small-Projects/projects/color-vocab/)
 - **Motivation Meme**: CSS styling practice · [Live](https://cheyennebejj123.github.io/Web-Dev-Small-Projects/projects/motivation-meme/)
 
