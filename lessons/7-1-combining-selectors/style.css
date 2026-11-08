@@ -1,0 +1,23 @@
+/* Write your code here: */
+h1,
+h2 {
+  color: blueviolet;
+}
+
+div > p {
+  /*could also be .box>p*/
+  color: firebrick;
+}
+
+div li {
+  /*could also be .box li*/
+  color: blue;
+}
+
+li.done {
+  color: seagreen;
+}
+
+ul > p.done {
+  font-size: 0.5rem;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Web Dev Projects · Cheyenne</title>
+<style>
+  :root { --bg:#fafaf7; --fg:#1b1b1f; --muted:#62626b; --card:#fff; --line:#e6e4dd; --accent:#d9480f; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#141417; --fg:#f1f0ec; --muted:#a3a3ad; --card:#1d1d22; --line:#2c2c33; --accent:#ff8a4c; } }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg); font:16px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif; }
+  main { max-width:1080px; margin:0 auto; padding:56px 16px 72px; }
+  h1 { font-size:clamp(2rem,5vw,3rem); line-height:1.1; margin:0 0 12px; letter-spacing:-0.02em; }
+  .lead { color:var(--muted); max-width:640px; margin:0 0 40px; }
+  h2 { font-size:0.8rem; text-transform:uppercase; letter-spacing:0.12em; color:var(--muted); margin:48px 0 16px; }
+  .grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(240px,1fr)); gap:20px; }
+  a.card { display:block; background:var(--card); border:1px solid var(--line); border-radius:12px; overflow:hidden; color:inherit; text-decoration:none; transition:transform .15s, border-color .15s; }
+  a.card:hover { transform:translateY(-3px); border-color:var(--accent); }
+  .card img { width:100%; aspect-ratio:8/5; object-fit:cover; display:block; border-bottom:1px solid var(--line); }
+  .card div { padding:14px 16px 16px; }
+  .card strong { display:block; }
+  .card span { color:var(--muted); font-size:0.9rem; }
+  ul.small { list-style:none; padding:0; margin:0; display:flex; flex-wrap:wrap; gap:10px; }
+  ul.small a { display:inline-block; padding:8px 14px; border:1px solid var(--line); border-radius:999px; color:inherit; text-decoration:none; background:var(--card); }
+  ul.small a:hover { border-color:var(--accent); }
+  footer { margin-top:56px; color:var(--muted); font-size:0.9rem; }
+  footer a { color:var(--accent); }
+</style>
+</head>
+<body>
+<main>
+  <h1>Web Dev Small Projects</h1>
+  <p class="lead">Projects I built during Angela Yu's Complete Web Development Bootcamp: HTML, CSS, Flexbox, Grid, Bootstrap, JavaScript and jQuery. Click any card to open it live.</p>
+
+  <h2>JavaScript</h2>
+  <div class="grid">
+    <a class="card" href="projects/simon-game/"><img src="screenshots/simon-game.jpg" alt="Simon Game"><div><strong>Simon Game</strong><span>Memory game · jQuery. Press any key to start.</span></div></a>
+    <a class="card" href="projects/drum-kit/"><img src="screenshots/drum-kit.jpg" alt="Drum Kit"><div><strong>Drum Kit</strong><span>Click or press W A S D J K L</span></div></a>
+    <a class="card" href="projects/dicee/"><img src="screenshots/dicee.jpg" alt="Dicee"><div><strong>Dicee</strong><span>Refresh to roll the dice</span></div></a>
+  </div>
+
+  <h2>HTML &amp; CSS</h2>
+  <div class="grid">
+    <a class="card" href="projects/tindog/"><img src="screenshots/tindog.jpg" alt="TinDog"><div><strong>TinDog</strong><span>Bootstrap 5 landing page</span></div></a>
+    <a class="card" href="projects/flexbox-pricing/"><img src="screenshots/flexbox-pricing.jpg" alt="Pricing table"><div><strong>Pricing Table</strong><span>Flexbox · responsive</span></div></a>
+    <a class="card" href="projects/mondrian-grid/"><img src="screenshots/mondrian-grid.jpg" alt="Mondrian painting"><div><strong>Mondrian</strong><span>CSS Grid art</span></div></a>
+    <a class="card" href="projects/web-design-agency/"><img src="screenshots/web-design-agency.jpg" alt="Agency site"><div><strong>Web Design Agency</strong><span>Layout &amp; typography</span></div></a>
+    <a class="card" href="projects/css-flag/"><img src="screenshots/css-flag.jpg" alt="Flag of Laos"><div><strong>Flag of Laos</strong><span>Pure CSS positioning</span></div></a>
+  </div>
+
+  <h2>Early projects</h2>
+  <ul class="small">
+    <li><a href="projects/html-portfolio/">HTML Portfolio</a></li>
+    <li><a href="projects/movie-ranking/">Movie Ranking</a></li>
+    <li><a href="projects/birthday-invite/">Birthday Invite</a></li>
+    <li><a href="projects/color-vocab/">Color Vocab</a></li>
+    <li><a href="projects/motivation-meme/">Motivation Meme</a></li>
+  </ul>
+
+  <footer>Back-end (Node/Express) projects and source code are on <a href="https://github.com/cheyennebejj123/Web-Dev-Small-Projects">GitHub</a>.</footer>
+</main>
+</body>
+</html>
